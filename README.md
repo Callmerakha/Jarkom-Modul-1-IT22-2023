@@ -115,14 +115,21 @@ diperoleh flag yakni ```Jarkom2023{ch3cksum_is_u5eful_0x5k2k}```
 
 ## Soal No 5
 
+diberikan soal berikut
 
 ![26e933fa-2148-4f3d-8ccc-5eba118ce8e0](https://github.com/Callmerakha/Jarkom-Modul-1-IT22-2023/assets/103549279/b86e3206-acce-4ce1-811d-6daa4359fd14)
 
 
 **JAWAB**
 1. Di unduh **soal5.pcap**
-
+2. menggunakan **tools base64** dalam pencarian
    
+
+ <img width="306" alt="image" src="https://github.com/Callmerakha/Jarkom-Modul-1-IT22-2023/assets/103549279/1084b339-5e03-4d4c-8f83-e53ad41dd944">
+
+
+3. dan diperoleh password sesuai dengan gambar diatas
+
 
 <img width="505" alt="image" src="https://github.com/Callmerakha/Jarkom-Modul-1-IT22-2023/assets/103549279/885dcf04-aae5-4497-816e-6c10c1afb1d2">
 
@@ -145,7 +152,7 @@ dan diperoleh flag yakni ```Jarkom2023{k0w4lski_8121_zyvOEtExABB_4nalys1s}```
 
 ## Soal No 7
 
-
+diberikan soal berikut
 
 ![2199e07a-65a7-445e-b214-71f99d3b8ce3](https://github.com/Callmerakha/Jarkom-Modul-1-IT22-2023/assets/103549279/aab03725-76a1-4fb6-8c11-c84a52a188c5)
 
@@ -165,9 +172,6 @@ diberikan pertanyaan untuk mencari jumlah package yang mengarah ke ip ```184.87.
 
 
 diperoleh flag yakni ```Jarkom2023{ajCG121SCUCj6J7vJ0_4n0th3r_f1lt3ring}```
-
-
-
 
 
 
@@ -196,29 +200,43 @@ diporoleh flag yakni ``` Jarkom2023{qu3ryyyyying_880375_BmOtOxOhSwN_15_fun}```
 
 
 ## Soal No 9
-
+diberikan soal berikut
 
 ![eec63d25-3c1c-4a92-ac42-2f485ec95fe5](https://github.com/Callmerakha/Jarkom-Modul-1-IT22-2023/assets/103549279/db876da3-6ea3-4ae7-9d3d-55d38e795e99)
 
 
 **JAWAB**
-
+1. Di unduh **soal9.pcap**
+2. kemudian dimasukan query untuk memfilter yakni ```ip.src == 10.51.40.1 && ip.dst != 10.39.55.34```
+3. dimasukkan hasil kedalam nc pada terminal
 
 <img width="502" alt="image" src="https://github.com/Callmerakha/Jarkom-Modul-1-IT22-2023/assets/103549279/878eeeee-ec4e-4e42-9f09-3e0df65d344a">
 
+diperoleh flag yakni ```Jarkom2023{y3s_its_PiPjQlOgNgN_qu3ry1ng}```
 
 
 ## Soal No 10
-
+diberikan soal berikut
 
 ![cf54b319-ccc3-4dbf-9d75-eb513b6966e5](https://github.com/Callmerakha/Jarkom-Modul-1-IT22-2023/assets/103549279/baf10022-1958-4490-ada8-a0cae4b9e370)
 
 
 **JAWAB**
 
+1. Di unduh **soal10.pcap**
+2. diberikan protocol TELNET pada soal yg diunduh
+3. dicari package yang mengandung **"username;password"** yakni pada package ke **81**
+
+
 <img width="501" alt="image" src="https://github.com/Callmerakha/Jarkom-Modul-1-IT22-2023/assets/103549279/38466fe4-cfe9-41d1-b211-d9cc42c7e965">
+
+4. kemudian di follow dan ditemukan password yang dicari
 
 
 <img width="503" alt="image" src="https://github.com/Callmerakha/Jarkom-Modul-1-IT22-2023/assets/103549279/6be9308e-ebbb-42a5-8ea9-2b1a0b35953d">
+
+5. dimasukkan kedalam nc pada terminal
+
+diperoleh flag yakni ```Jarkom2023{t3lnet_is_xAxx2y6BA4B1x39BC_N0tSecu2e}```
 
 
